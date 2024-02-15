@@ -2,6 +2,7 @@ package ru.mikhailov.appnotes.controllers;
 
 import lombok.AllArgsConstructor;
 import org.springframework.web.bind.annotation.*;
+import ru.mikhailov.appnotes.aspects.TrackUserAction;
 import ru.mikhailov.appnotes.model.Task;
 import ru.mikhailov.appnotes.services.TaskService;
 
@@ -42,8 +43,4 @@ public class TaskController {
     public void deleteTaskById(@PathVariable Long id){
         taskService.deleteTask(id);
     }
-
-
-
-
 }
