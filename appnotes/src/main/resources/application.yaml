@@ -4,3 +4,11 @@ server:
 spring:
   application:
     name: appnotes
+management:
+  endpoints:
+    web:
+      exposure:
+        include: metrics,prometheus
+  endpoint:
+    health:
+      show-details: "ALWAYS"

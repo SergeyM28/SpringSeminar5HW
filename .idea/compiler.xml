@@ -21,6 +21,7 @@
     <option name="ADDITIONAL_OPTIONS_OVERRIDE">
       <module name="appnotes" options="-parameters" />
       <module name="gateway" options="" />
+      <module name="seminar9task1" options="" />
     </option>
   </component>
 </project>
