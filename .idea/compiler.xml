@@ -15,6 +15,7 @@
       <module name="eureka-server" target="18" />
       <module name="eureka_server" target="18" />
       <module name="microserviceNotes" target="18" />
+      <module name="seminar9task1" target="17" />
     </bytecodeTargetLevel>
   </component>
   <component name="JavacSettings">
